@@ -147,8 +147,12 @@ nav ul li a {
     /*padding-bottom: 20px;*/
 }
 #staff {
+    /* padding-bottom: 20px; */
+}
+#social {
     padding-bottom: 20px;
 }
+
 
 section ul li  {
     list-style-type: circle;
@@ -261,4 +265,8 @@ figcaption
 }
 #meansTransport th {
 	text-align: left;
+}
+
+#cookies .info {
+  padding: 0px 15px;
 }

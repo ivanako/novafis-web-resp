@@ -16,6 +16,32 @@
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- Politica de cookies - https://cookieconsent.insites.com/download/# -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+    <script>
+    window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#eaf7f7",
+          "text": "#5c7291"
+        },
+        "button": {
+          "background": "#56cbdb",
+          "text": "#ffffff"
+        }
+      },
+      "position": "bottom-left",
+      "content": {
+        "message": "Utilizamos cookies propias y de terceros para mejorar nuestros servicios y mostrarle publicidad relacionada con sus preferencias mediante el análisis de sus hábitos de navegación. Si continua navegando, consideramos que acepta su uso. Puede cambiar la configuración u obtener más información aquí:",
+        "dismiss": "Entendido",
+        "link": "Información",
+        "href": "policies/cookies.html"
+      }
+    })});
+    </script>
+
 
   </head>
 
@@ -40,6 +66,7 @@
           <li class="active"><a href="#collaborators">Colaboradores</a></li>
           <li class="active"><a href="#location">Ubicación</a></li>
           <li class="active"><a href="#staff">Profesionales</a></li>
+          <!-- <li class="active"><a href="#social">Social</a></li> -->
         </ul>
       </div>
     </nav>
@@ -435,14 +462,20 @@
           <div class="col-md-1"></div>
         </div>
       </div>
-
     </section>
 
+    <!-- <section id="social" class="contents">
+      <h3>SOCIAL</h3>
+    </section> -->
+
     <footer class="navbar-fixed-bottom container-fluid">
-      <p style="margin-top: 10px">NOVAFIS FISIOTERAPIA - Calle Emilio Ortuño, 6 - Local - Cita previa: 91 501 95 68 o 664 23 93 45</p>
+      <p style="margin-top: 10px; display: inline-block">NOVAFIS FISIOTERAPIA - Calle Emilio Ortuño, 6 - Local - Cita previa: 91 501 95 68 o 664 23 93 45</p>
+      <p style="margin-top: 10px; float: right"><a href="policies/cookies.html" target="_blank">Política de cookies</a></p>
     </footer>
 
-    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script>
+    <!-- <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=true"></script> -->
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js"></script>
+
     <script type="text/javascript" src="scripts/nvfFunctions.js"></script>
 
   </body>
